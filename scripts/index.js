@@ -4,6 +4,11 @@ import { addheaddata,createElement,loadcontent } from "./function.js";
 
 // Get the current pathname
 var pathname = window.location.pathname;
+var currenturl=location.href;
+
+var dir=currenturl.substring(0,currenturl.lastIndexOf('/')+1);
+console.log(dir);
+console.log('success');
 
 // Event listener for DOM content loaded
 document.addEventListener('DOMContentLoaded',function () {
@@ -18,9 +23,9 @@ document.addEventListener('DOMContentLoaded',function () {
   createElement('footer');
   
   // Load header, main (based on current pathname), and footer content
-  loadcontent('Pages/header.html', 'header');
+  loadcontent(currenturl + 'Pages/header.html', 'header');
   loadcontent(pathname, 'main');
-  loadcontent('Pages/footer.html', 'footer');
+  loadcontent(currenturl + 'Pages/footer.html', 'footer');
 })
 //#endregion
 
