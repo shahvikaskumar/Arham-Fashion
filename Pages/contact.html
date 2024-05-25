@@ -1,0 +1,90 @@
+<!-- Including JavaScript file for Header and Footer -->
+<script type="module" src="../scripts/index.js"></script>
+
+<!-- Container for the contact form -->
+<div id="container" class="container text-center my-4">
+    <h1>Contact Us</h1>
+
+    <!-- Row containing two columns: one for image and one for form -->
+    <div class="row my-4">
+        <!-- Column for the image -->
+        <div class="col-lg-6 py-4">
+            <img src="/Images/contactus.jpg"
+                class="img-fluid h-100 object-fit-fill"
+                alt="contactus">
+        </div>
+        <!-- Column for the form -->
+        <div class="col-lg-6 text-start py-4">
+            <!-- Form for contacting -->
+            <form action="#" post="method">
+
+                <!-- Row for the name input field -->
+                <div
+                    class="row justify-content-lg-start justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <label class="form-label fs-5 px-3 fw-bold"
+                            for="name">Name
+                            :-</label>
+
+                        <input type="name" id="name" name="name"
+                            placeholder="Enter Your Name"
+                            class="form-control fs-5 rounded-5 px-4 py-2" />
+                    </div>
+                </div>
+
+                <!-- Row for the email input field -->
+                <div
+                    class="row justify-content-lg-start justify-content-center py-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <label class="form-label fs-5 px-3 fw-bold"
+                            for="email">Email
+                            :-</label>
+
+                        <input type="email" id="email" name="email"
+                            placeholder="Enter Your E-mail"
+                            class="form-control fs-5 rounded-5 px-4 py-2" />
+                    </div>
+                </div>
+
+                <!-- Row for the phone number input field -->
+                <div
+                    class="row justify-content-lg-start justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <label class="form-label fs-5 px-3 fw-bold"
+                            for="phoneno">Phone Number
+                            :-</label>
+
+                        <input type="tel" id="phoneno" name="phoneno"
+                            placeholder="Enter Your Phone Number"
+                            class="form-control fs-5 rounded-5 px-4 py-2" />
+                    </div>
+                </div>
+
+                <!-- Row for the message input field -->
+                <div
+                    class="row justify-content-lg-start justify-content-center py-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <label class="form-label fs-5 px-3 fw-bold"
+                            for="message">Message
+                            :-</label>
+
+                        <textarea type="message" id="message" name="message"
+                            placeholder="Enter Your Message" rows="4"
+                            class="form-control fs-5 rounded-5 px-4 py-2"></textarea>
+                    </div>
+                </div>
+
+                <!-- Row for the submit button -->
+                <div
+                    class="row justify-content-center justify-content-lg-start py-2">
+                    <div class="col-12 col-md-10 col-lg-8">
+
+                        <input type="submit" id="sumbit"
+                            value="Submit"
+                            class="form-control bg-warning border-0 fs-3 fw-bold rounded-5" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
