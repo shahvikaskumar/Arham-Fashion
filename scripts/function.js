@@ -1,5 +1,5 @@
-import { routing } from "/scripts/routes.js";
-import { mainelement } from "/scripts/mainelement.js";
+import { routing } from "./routes.js";
+import { mainelement } from "./mainelement.js";
 
 //#region Create Element
 
