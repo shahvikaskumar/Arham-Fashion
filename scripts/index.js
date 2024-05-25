@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',function () {
   createElement('footer');
   
   // Load header, main (based on current pathname), and footer content
-  loadcontent('/Pages/header.html', 'header');
+  loadcontent('./Pages/header.html', 'header');
   loadcontent(pathname, 'main');
   loadcontent('/Pages/footer.html', 'footer');
 })
