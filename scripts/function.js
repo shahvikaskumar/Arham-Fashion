@@ -29,7 +29,7 @@ export function addheaddata() {
   var faviconElement = document.createElement('link');
   faviconElement.rel = 'icon';
   faviconElement.type = 'image/png';
-  faviconElement.href = '/Images/favicon.png';
+  faviconElement.href = 'Images/favicon.png';
 
   var link = document.createElement('link');
   link.rel = 'stylesheet';
