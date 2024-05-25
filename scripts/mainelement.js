@@ -36,6 +36,7 @@ export function mainelement(url) {
 
     switch (url) {
         case '/Pages/login.html':
+        case '/Pages/login':
             const loginc = document.querySelector('#login');
             if (loginc) {
                 loginc.addEventListener('click', logincheck);
