@@ -33,15 +33,15 @@ export function addheaddata() {
 
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = "/Bootstrap/css/bootstrap.min.css";
+  link.href = "Bootstrap/css/bootstrap.min.css";
 
   var linkfaicon = document.createElement('link');
   linkfaicon.rel = 'stylesheet';
-  linkfaicon.href = "/fontawesome/css/all.min.css";
+  linkfaicon.href = "fontawesome/css/all.min.css";
 
   var scriptElement = document.createElement('script');
   scriptElement.defer = true;
-  scriptElement.src = "/Bootstrap/js/bootstrap.bundle.min.js";
+  scriptElement.src = "Bootstrap/js/bootstrap.bundle.min.js";
 
   document.head.appendChild(charsetMeta);
   document.head.appendChild(viewportMeta);
