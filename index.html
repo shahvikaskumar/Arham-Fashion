@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Importing JavaScript file with 'defer' attribute to ensure it's executed after the DOM is fully parsed -->
+        <script type="module" src="/scripts/index.js" defer></script>
+    </head>
+    <body data-bs-theme="light">
+        <!-- Main container -->
+        <div id="container" class="container-fluid p-0">
+            <!-- Section with a background image -->
+            <section>
+                <!-- Figure element with a background image -->
+                <figure class="figure position-relative bg-black">
+                    <!-- Image -->
+                    <img src="/Images/Home/cover.jpg"
+                        class="figure-img img-fluid object-fit-cover m-0 opacity-50"
+                        alt="cover">
+                    <!-- Figcaption containing logo and slogan -->
+                    <figcaption
+                        class="position-absolute top-50 start-50 translate-middle">
+                        <!-- Logo image -->
+                        <img src="/Images/Logo.png"
+                            class="img-fluid object-fit-cover"
+                            alt="logo">
+                        <!-- Slogan -->
+                        <p
+                            class="fs-4 fw-bold text-center text-warning">"Elegance
+                            Is
+                            Always In
+                            Style"</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <!-- Section for featured products -->
+            <section class="my-5">
+                <!-- Heading for featured products -->
+                <h1 class="text-center mb-4">Featured Products</h1>
+                <!-- Carousel for displaying featured products -->
+                <div id="carousel"
+                    class="carousel slide pointer-event">
+                    <div class="carousel-inner">
+
+                        <!-- First carousel item -->
+                        <div class="carousel-item active">
+                            <!-- Row for displaying products -->
+                            <div class="row mx-2"
+                                id="product">
+                                <!-- Content for Product will be dynamically loaded here -->
+                            </div>
+                        </div>
+
+                        <!-- Second carousel item -->
+                        <div class="carousel-item">
+                            <!-- Row for displaying products -->
+                            <div class="row mx-2" id="product">
+                                <!-- Content for Product will be dynamically loaded here -->
+                            </div>
+                        </div>
+
+                        <!-- Third carousel item -->
+                        <div class="carousel-item">
+                            <!-- Row for displaying products -->
+                            <div class="row mx-2" id="product">
+                                <!-- Content for Product will be dynamically loaded here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel control buttons -->
+                    <button
+                        class="carousel-control-prev h-75"
+                        type="button"
+                        data-bs-target="#carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next h-75"
+                        type="button"
+                        data-bs-target="#carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon "
+                            aria-hidden="true"></span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
