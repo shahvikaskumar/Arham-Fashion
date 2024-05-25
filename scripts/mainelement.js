@@ -41,7 +41,7 @@ export function mainelement(url) {
                 loginc.addEventListener('click', logincheck);
             }
             break;
-        case '/index.html':
+        case '/':
             const productlist = document.querySelectorAll('#product');
             if (productlist) {
                 addproduct(productlist, Products);
