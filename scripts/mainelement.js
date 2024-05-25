@@ -42,7 +42,7 @@ export function mainelement(url) {
             }
             break;
         case '/':
-        case '/index.html'
+        case '/index.html':
             const productlist = document.querySelectorAll('#product');
             if (productlist) {
                 addproduct(productlist, Products);
