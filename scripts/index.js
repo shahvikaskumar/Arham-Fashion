@@ -1,4 +1,4 @@
-import { addheaddata,createElement,loadcontent } from "./function.js";
+import { addheaddata,createElement,loadcontent } from "scripts/function.js";
 
 //#region dom content laod event
 
