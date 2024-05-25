@@ -4,11 +4,8 @@ import { addheaddata,createElement,loadcontent } from "./function.js";
 
 // Get the current pathname
 var pathname = window.location.pathname;
-var currenturl=window.location.href;
+export var currenturl=window.location.href;
 
-var dir=currenturl.substring(0,currenturl.lastIndexOf('/')+1);
-console.log(dir);
-console.log('success');
 
 // Event listener for DOM content loaded
 document.addEventListener('DOMContentLoaded',function () {
