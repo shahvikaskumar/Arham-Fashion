@@ -4,7 +4,7 @@ import { addheaddata,createElement,loadcontent } from "./function.js";
 
 // Get the current pathname
 var pathname = window.location.pathname;
-var currenturl=location.href;
+var currenturl=window.location.href;
 
 var dir=currenturl.substring(0,currenturl.lastIndexOf('/')+1);
 console.log(dir);
