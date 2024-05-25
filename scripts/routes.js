@@ -1,4 +1,5 @@
 import { loadcontent } from "./function.js";
+import { currenturl } from "./index.js";
 
 //#region array function for routing
 function addclickelements(elements,pageurl){        
@@ -40,7 +41,7 @@ export function routing() {
     for (var id in routes) {   
              
         var elements = document.querySelectorAll(id);        
-        addclickelements(elements, routes[id]);        
+        addclickelements(elements, currenturl + routes[id]);        
         
     }
 }
