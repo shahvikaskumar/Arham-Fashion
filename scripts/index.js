@@ -8,7 +8,7 @@ var pathname = window.location.pathname;
 // Event listener for DOM content loaded
 document.addEventListener('DOMContentLoaded',function () {
 
-  console.log('sucess');
+  
   // Function to add head data
   addheaddata();
   
