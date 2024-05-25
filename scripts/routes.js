@@ -14,8 +14,8 @@ function addclickelements(elements,pageurl){
 export function routing() {
 
     var routes = {
-        '#loginpage': '/Pages/login.html',
-        '#cartpage': '/Pages/cart.html',
+        '#loginpage': 'Pages/login.html',
+        '#cartpage': 'Pages/cart.html',
         '#homepage': '/index.html',
         '#allproduct': '/Pages/Product/product.html',
         '#contactpage': '/Pages/contact.html',
