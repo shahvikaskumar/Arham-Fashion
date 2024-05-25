@@ -1,5 +1,6 @@
 import { addproduct, logincheck } from "./function.js";
 import { Products, kids_bottom, kids_inner, kids_onepc, kids_top, men_jeans, men_pants, men_shirts, men_trousers, women_dresses, women_gowns, women_pants, women_skirts } from "./storage.js";
+import { currenturl } from "./index.js";
 
 //#region load mainelement as per pages
 export function mainelement(url) {
@@ -42,6 +43,7 @@ export function mainelement(url) {
             }
             break;
         case '/index.html':
+        case currenturl:
             const productlist = document.querySelectorAll('#product');
             if (productlist) {
                 addproduct(productlist, Products);
